@@ -4,6 +4,7 @@
 
 Implementing reinforcement learning for maze solving.
 The maze is randomly generated each and a Q-Learning agent is trained to solve the task.
+
 The following methods are implemented:
 
 1) Deep Q network 
@@ -14,5 +15,6 @@ The following methods are implemented:
 6) Prioritised action replay
 7) Decaying epsilon greedy exploration
 
-
+<center>
 ![Agent examples](maze.gif)
+</center>

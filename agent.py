@@ -1,19 +1,4 @@
-############################################################################
-############################################################################
-# THIS IS THE ONLY FILE YOU SHOULD EDIT
-#
-#
-# Agent must always have these five functions:
-#     __init__(self)
-#     has_finished_episode(self)
-#     get_next_action(self, state)
-#     set_next_state_and_distance(self, next_state, distance_to_goal)
-#     get_greedy_action(self, state)
-#
-#
-# You may add any other functions as you wish
-############################################################################
-############################################################################
+
 import time
 import numpy as np
 import torch
@@ -201,7 +186,7 @@ class Agent:
                 return
 
         # Convert the distance to a reward, weight also how far right the agent has moved
-        reward = 0.8 * (1 - distance_to_goal) + 0.2 * next_state[0]
+        reward = 0.5 * (1 - distance_to_goal) + 0.5 * next_state[0]
 
         # reducing reward for bumping into wall
         if (
