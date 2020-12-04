@@ -15,6 +15,7 @@ The following methods are implemented:
 6) Prioritised action replay
 7) Decaying epsilon greedy exploration
 
-<center>
-![Agent examples](maze.gif)
-</center>
+<p align="center">
+  <img width=450" height="450" src="maze.gif">
+</p>
+
