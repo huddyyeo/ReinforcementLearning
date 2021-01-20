@@ -1,6 +1,6 @@
 # ReinforcementLearning
 
-## Reinforcement Learning coursework for MSc AI 
+## Reinforcement Learning coursework for MSc 
 
 Implementing reinforcement learning for maze solving.
 The maze is randomly generated each time and a Q-Learning agent is trained for 10 minutes to solve the task.
